@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+
+#header{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    position: fixed;
+    /* padding: 10px 0; */
+    box-shadow: 0 0 10px #000;
+    z-index: 999;
+    background-color: #fff;
+}
+.header-conatainer{
+    width: 1200px;
+    margin: auto;
+    /* padding: 15px 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 150px    ;
+}
+.header-logo img{
+    width: 100%;
+}
+#header-menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+#header-menu ul li{
+    display: inline;
+    /* margin-left: 18px; */
+}
+#header-menu ul li a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+#header-menu ul li a:hover{
+    background-color: #f0b016;
+    color: #fff;
+}
+
+
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/hero\ img.jpeg);
+    background-size: cover;
+}
+.hero-overflow{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffffce;
+}
+.hero-container{
+    /* width: 1200px; */
+    /* margin: auto; */
+    display: flex;
+}
+.hero-slider-box-1{
+    width: 30%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+}
+.slider-img-box{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.slider-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+.swiper{
+    height: 100%;
+}
+.brand-logo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.brand-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brand-img a img{
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    transition: all 0.4s;
+}
+.brand-img a img:hover{
+    background-color: #000;
+}
+.hero-slider-box-2{
+    width: 70%;
+    height: 100vh;
+}
+.slider-contant{
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 100px;
+    
+}
+.slider-contant h1{
+    width: 100%;
+    font-size: 45px;
+}
+.slider-contant-box p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.slider-contant-btn{
+    margin-top: 20px;
+}
+.slider-contant-btn a button{
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    font-size: 18px;
+
+
+}
+.slider-contact-btn{
+    background: #f0b016;
+    color: #fff;
+}
+.slider-about-btn{
+    background: #000;
+    color: #fff;
+}
